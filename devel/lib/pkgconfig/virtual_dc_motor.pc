@@ -1,0 +1,8 @@
+prefix=/home/kacper/catkin_ws/devel
+
+Name: virtual_dc_motor
+Description: Description of virtual_dc_motor
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
