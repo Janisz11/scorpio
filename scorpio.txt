@@ -1,0 +1,10 @@
+
+$ roslaunch virtual_dc_motor virtual_dc_motor.launch (terminal 1)
+$ cd catkin_ws/src/scorpio/scripts(terminal 2)
+$ python3 odczyt.py(terminal 2 nastepna komenda)
+$ rostopic echo /motor_data_driver/speed (terminal 3 )
+$ cd catkin_ws/src/scorpio/scripts(terminal 4 )
+$ python3 sterowanie.py #sterowanie w terminalu za pomacą strzałki w lewo i w prawo (prędkość) (terminal 4)
+
+
+
